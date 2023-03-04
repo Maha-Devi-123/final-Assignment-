@@ -1,0 +1,18 @@
+post http://localhost:3000/register/ 
+Content-Type: application/json 
+
+{
+  "username": "Devi_Mallela",
+  "password": "deviii",
+  "name": "devi",
+  "gender": "Female"
+}
+
+### 
+post http://localhost:3000/login/ 
+Content-Type: application/json
+
+{
+  "username":"JoeBiden",
+  "password":"biden@123"
+}
